@@ -4,7 +4,7 @@
 #
 Name     : xdpyinfo
 Version  : 1.3.2
-Release  : 2
+Release  : 3
 URL      : https://www.x.org/releases/individual/app/xdpyinfo-1.3.2.tar.gz
 Source0  : https://www.x.org/releases/individual/app/xdpyinfo-1.3.2.tar.gz
 Summary  : No detailed summary available
