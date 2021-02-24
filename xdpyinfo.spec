@@ -6,7 +6,7 @@
 #
 Name     : xdpyinfo
 Version  : 1.3.2
-Release  : 4
+Release  : 5
 URL      : https://www.x.org/releases/individual/app/xdpyinfo-1.3.2.tar.gz
 Source0  : https://www.x.org/releases/individual/app/xdpyinfo-1.3.2.tar.gz
 Source1  : https://www.x.org/releases/individual/app/xdpyinfo-1.3.2.tar.gz.sig
@@ -29,7 +29,6 @@ BuildRequires : pkgconfig(xproto)
 BuildRequires : pkgconfig(xrender)
 BuildRequires : pkgconfig(xtst)
 BuildRequires : pkgconfig(xxf86dga)
-BuildRequires : pkgconfig(xxf86misc)
 BuildRequires : pkgconfig(xxf86vm)
 
 %description
@@ -73,7 +72,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1604599435
+export SOURCE_DATE_EPOCH=1614192334
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
@@ -90,7 +89,7 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1604599435
+export SOURCE_DATE_EPOCH=1614192334
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/xdpyinfo
 cp %{_builddir}/xdpyinfo-1.3.2/COPYING %{buildroot}/usr/share/package-licenses/xdpyinfo/a7c968e282631e3b29c66bcf4a438fc72b68be27
