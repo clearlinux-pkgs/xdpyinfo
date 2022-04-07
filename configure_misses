@@ -1,1 +1,2 @@
 Configure miss: DPY_XF86MISC
+Configure miss: gcc options needed to detect all undeclared functions
